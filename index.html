@@ -15,22 +15,24 @@
 		<!--Header of page-->
 		<header>
 			<!--Navigation-->
-			<nav>
+			<nav class="navigation">
 				<a href="./index.html">
-					<span>Web</span>
+					<span class="logo-web">Web</span>
 					Studio
 				</a>
-				<ul>
-					<li><a href="#">Студія</a></li>
-					<li><a href="#">Портфоліо</a></li>
-					<li><a href="#">Контакти</a></li>
+				<ul class="list navigation-menu-list">
+					<li class="navigation-menu-list-item"><a href="./index.html" class="navigation-menu-link">Студія</a></li>
+					<li class="navigation-menu-list-item">
+						<a href="./portfolio.html" class="navigation-menu-link">Портфоліо</a>
+					</li>
+					<li class="navigation-menu-list-item"><a href="#" class="navigation-menu-link">Контакти</a></li>
 				</ul>
 			</nav>
 
 			<!--Contacts-->
-			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="list">
+				<li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
 		</header>
 
@@ -38,18 +40,18 @@
 		<main>
 			<!--Section Hero-->
 			<section>
-				<h1>
+				<h1 class="hero-title">
 					Ефективні рішення
 					<br />
 					для вашого бізнесу
 				</h1>
-				<button type="button">Замовити послугу</button>
+				<button class="btn" type="button">Замовити послугу</button>
 			</section>
 
 			<!--Section Main work principles-->
 			<section>
 				<!--hide h2 in this section-->
-				<h2>Основні принципи роботи</h2>
+				<h2 hidden>Основні принципи роботи</h2>
 				<ul>
 					<li>
 						<img src="./images/work-principles/antenna1.svg" alt="Antena" />
