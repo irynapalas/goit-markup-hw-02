@@ -91,3 +91,26 @@ body {
 	border-radius: 4px;
 	border-bottom: none;
 }
+
+/*Section titles*/
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.167;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+/*Section main work principles*/
+.principle-list-item-title {
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--primary-text-color);
+}
+.principle-list-item-text {
+	line-height: 1.714;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
