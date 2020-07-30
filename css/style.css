@@ -1,6 +1,15 @@
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 :root {
 	--primary-text-color: #212121;
 	--secondary-text-color: #757575;
@@ -19,8 +28,18 @@ body {
 	background: var(--temporary-background-color);
 }
 
+/* container */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 1px solid blue;
+}
+
 .list {
 	list-style-type: none;
+	margin: 0px;
 }
 
 /*Header Logo WEB-STUDIO*/
